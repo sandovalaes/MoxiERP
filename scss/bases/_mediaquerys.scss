@@ -1,0 +1,291 @@
+/*!-------------------------MEDIA QUERY------------------------------*/
+
+@media screen and (max-width:1100px) {
+    
+    .contenedor-soluciones-opcionales{
+        h3{
+            font-size: 18px;
+        }
+
+        ul{
+            li{
+                font-size: 14px;
+            }
+        }
+        
+    }
+
+    .flex-presentacion-explicacion{
+        img{
+            height: 350px;
+            width: 450px;
+        }
+
+        div{
+            height: 350px;
+            width: 450px;
+        }
+    }
+
+    .titulo-icono{
+
+        img{
+            height: 140px;
+            width: 140px;
+        }
+
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .flex-contenedor-soluciones {
+        h2{
+            font-size: 22px;
+        }
+    }
+
+    .grid-contenedor-modulos{
+        h2{
+            font-size: 22px;
+        }
+    }
+
+    .flex-presentacion-explicacion {
+        img{
+            height: 300px;
+            width: 400px;
+        }
+
+        div{
+            height: 300px;
+            width: 400px;
+        }
+    }
+
+    .titulo-icono {
+        img{
+            height: 110px;
+            width: 110px;
+        }
+    }
+} 
+
+@media screen and (max-width:900px) {
+
+    .grid-galeria{  
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 140px;
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .img-compras{
+        grid-column: span 2;
+    }
+
+    .carrusel-detalle {
+        h5{
+            font-size: 16px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .flex-contenedor-soluciones{
+        h2{
+            font-size: 22px;
+        }
+    }
+
+    .flex-presentacion-explicacion{
+        img{
+            height: 250px;
+            width: 350px;
+        }
+
+        div{
+            height: 250px;
+            width: 350px;
+        }
+    }
+
+    .titulo-icono{
+        img{
+            height: 100px;
+            width: 100px;
+        }
+
+        h4{
+            font-size: 18px;
+        }
+    }
+
+    .grid-contenedor-modulos{
+        h2{
+            font-size: 22px;
+        }
+    }
+} 
+
+@media screen and (max-width:881px) {
+
+    .contenedor-soluciones-opcionales{
+        h3{
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width:770px ){
+    .flex-presentacion-explicacion{
+        img{
+            height: 230px;
+            width: 330px;
+        }
+
+        div{
+            height: 230px;
+            width: 330px;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .titulo-icono{
+        img{
+            height: 95px;
+            width: 95px;
+        }
+        h4{
+            font-size: 16px;
+        }
+    }
+
+    .flex-contenedor-tarjetas{
+        div{
+            height: 260px;
+            width: 210px;
+            ul{
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:725px ) {
+    .flex-presentacion-explicacion {
+        img{
+            height: 225px;
+            width: 325px;
+        }
+        div{
+            height: 225px;
+            width: 325px;
+        }
+    }
+}
+
+@media screen and (max-width:700px ) {
+
+    .flex-presentacion-explicacion{
+        flex-direction: column;
+        align-items: center;
+        div{
+            margin-left: 0;
+            margin-top: 5px;
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .tamanio-fuente {
+        font-size: 12px;
+        li{
+            a{
+                padding: 4px;
+            }
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactanos{
+        width: 100%;
+        text-align: center;
+
+        h4{
+            text-align: center;
+        }
+    }
+
+    .seguinos{
+        h4{
+            text-align: center;
+        }
+    }
+}  
+
+@media screen and (max-width:650px) {
+
+    .contenedor-listas{
+        ul{
+            padding-top: 10px;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:550px){
+    .grid-galeria{  
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .titulo-icono{
+        img{
+            height: 80px;
+            width: 80px;
+        }
+        h4{
+            font-size: 14px;
+        }
+    }
+
+    .contenedor-soluciones-opcionales{
+        width: 210px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .titulo-icono {
+        img{
+            height: 60px;
+            width: 60px;
+        }
+        h4{
+            font-size: 11px;
+        }
+    }
+}
