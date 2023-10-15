@@ -12,7 +12,7 @@
    <header>
     <nav class="navbar navbar-expand-lg color-fondo">
         <div class="container-fluid">
-            <a href="../index.html"> <img class="logo" src="../img/logo2.png" alt="Logo"> </a>
+            <a href="../index.html"> <img class="logo" src="../img/logo2.png" alt="Logo"> </a> 
             <a class="navbar-brand" href="../index.html"> Moxi ERP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,20 +39,74 @@
             </div>
         </div>
     </nav>
-   </header>
-   <main>
+    </header>
+    <main>
     <section class="contacto">
-        <div>
             <h2>Contactate con Moxi ERP</h2>
-            <p>TELÉFONOS</p>
-            <p> +5411 0000-7600 Conmutador</p>
-            <p>WhatsApp Área Comercial</p>
-            <p>WhatsApp Área Servicios</p>    
-        </div>
-       
+            <div class="flex-contenedor-contactos">
+                <div class="tarjeta-contacto">
+                    <img src="../img/edificio.png" alt="">
+                    <p>OFICINAS</p>
+                    <p>Av. Libertador 4567</p>
+                    <p>11° piso C1428ARG | CABA | Argentina</p>
+                </div>
+                <div class="tarjeta-contacto">
+                    <img src="../img/telefono.png" alt="">
+                    <P>TELÉFONOS</P>
+                    <p>+541174858988 Conmutador</p>
+                    <p>+541123234334 Area Comercial</p>
+                    <p>+541166663333 Area Servicios</p>
+                    <a href="#formulario" class = "completar-form">Completar Formulario</a>
+                </div>
+                <div class="tarjeta-contacto">
+                    <img src="../img/correo.png" alt="">
+                    <P>CORRREO</P>
+                    <p>info@moxierp.com.ar</p>
+                </div>
+            </div> 
     </section>
-   </main>
-   <footer>
+    <section class = "seccion-contacto-formulario" id ="formulario">
+        <div class="contenedor-formulario">
+            <h2>¿Buscando un sistema de gestión ERP?</h2>
+            <form action="" method="" enctype="" class="grid-formulario">
+                <div class="grid-item-form grid-item-nombre">
+                    <label for="nombre" class="etiqueta">Nombre y Apellido</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div class="grid-item-form">
+                    <label for="empresa" class="etiqueta">Empresa</label>
+                    <input type="text" name="empresa" id="empresa">
+                </div>
+                <div class="grid-item-form">
+                    <label for="telefono" class="etiqueta">Telefono</label>
+                    <input type="text" name="telefono" id="telefono">
+                </div>
+                <div class="grid-item-form">
+                    <label for="email" class="etiqueta">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="grid-item-form">
+                    <label for="cant-usuarios" class="etiqueta">Cantidad de Usuarios</label>
+                    <select name="cant-usuarios" id="cant-usuarios">
+                        <option name = "cant-usuarios" id = "cant-usuarios" value="">1 a 5</option>
+                        <option name = "cant-usuarios" id = "cant-usuarios" value="">6 a 20</option>
+                        <option name = "cant-usuarios" id = "cant-usuarios" value="">21 a 60</option>
+                        <option name = "cant-usuarios" id = "cant-usuarios" value="">mas de 60</option>
+                    </select>
+                </div>
+                <div class="grid-item-form grid-item-obs">
+                    <label for="ayudarte" class="etiqueta">¿Cómo podemos ayudarte?</label>
+                    <textarea name="ayudarte" id="ayudarte" cols="30" rows="4"></textarea>
+                </div>
+                <div class="grid-item-form">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+        
+    </section>
+    </main>
+    <footer>
     <h2>Moxi ERP</h2>
 
     <div class="contactanos">

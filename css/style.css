@@ -166,7 +166,7 @@ header{
 }
 
 .flex-tarjeta a{
-    background-color: #2a4151f4;
+    background-color: rgba(42, 65, 81, 0.957);
     padding:5px 40px 5px 40px;
     text-decoration: none;
     color: white;
@@ -283,6 +283,118 @@ header{
     text-align: center;
 }*/
 
+/*!-----------------CONTACTO---------------------------*/
+
+
+.contacto{
+    background-image: url("../img/contactocall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto h2{
+    color: white;
+   /* padding-top: 2rem;*/
+    font-size: 32px;
+    text-align: center;
+}
+
+.flex-contenedor-contactos{
+    width: 75%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.tarjeta-contacto{
+    width: 200px;
+    height: 410px;
+    text-align: center;
+}
+
+.tarjeta-contacto img{
+    width: 140px;
+    height: 140px;
+}
+
+.tarjeta-contacto p{
+    color: white;
+    text-align: center;
+}
+
+.tarjeta-contacto a{
+    background-color: rgba(42, 65, 81, 0.957); 
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+.tarjeta-contacto a:hover{
+    background-color: rgb(213, 184, 97); 
+}
+
+.seccion-contacto-formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-contacto-formulario div{
+    background-color: rgb(232, 231, 231);
+}
+
+.seccion-contacto-formulario div h2{
+    text-align: center;
+    padding-top: 66px;
+    color: rgba(42, 65, 81, 0.957);
+}
+
+.contenedor-formulario{
+    width: 50%;
+}
+
+.etiqueta{
+    display: block;
+}
+
+.grid-formulario{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 70px;
+}
+
+.grid-item-form{
+    margin: 5px;
+}
+
+.grid-item-form input{
+    width: 100%;
+}
+
+.grid-item-form textarea{
+    width: 100%;
+}
+
+.grid-item-nombre{
+    grid-column: span 2;
+}
+
+.grid-item-obs{
+    grid-column: span 2;
+    grid-row: span 2;
+}
 /*!-----------------FOOTER-----------------------------*/
 footer{
     background-color: #2a4151f4;
@@ -330,6 +442,11 @@ footer div p{
 }
 
 @media screen and (max-width:1000px) {
+
+    /*page contacto*/
+    .contenedor-formulario{
+        width: 70%;
+    }
 
     .flex-contenedor-soluciones h2{
         font-size: 22px;
@@ -407,11 +524,38 @@ footer div p{
     }
 } 
 
-
 @media screen and (max-width:881px) {
 
     .contenedor-soluciones-opcionales h3{
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    /*page contacto*/
+    .flex-contenedor-contactos{
+        flex-direction: column;
+    }
+
+    .contacto{
+        height: auto;
+    }
+
+    .contacto h2{
+        margin-top: 66px;
+    }
+
+    .tarjeta-contacto{
+        height: auto;
+    }
+
+    .tarjeta-contacto{
+        margin-bottom: 1rem;
+    }
+
+    .contenedor-formulario{
+        width: 75%;
     }
 }
 
@@ -546,6 +690,20 @@ footer div p{
 
     .contenedor-soluciones-opcionales{
         width: 210px;
+    }
+
+    /*page contacto*/
+    .grid-formulario{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .grid-item-nombre{
+        grid-column: span 1;
+    }
+    
+    .grid-item-obs{
+        grid-column: span 1;
+
     }
 }
 
