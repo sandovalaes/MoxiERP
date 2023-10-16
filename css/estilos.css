@@ -32,7 +32,9 @@
     width: 400px; }
   .titulo-icono img {
     height: 110px;
-    width: 110px; } }
+    width: 110px; }
+  .contenedor-formulario {
+    width: 70%; } }
 
 @media screen and (max-width: 900px) {
   .grid-galeria {
@@ -66,6 +68,20 @@
 @media screen and (max-width: 881px) {
   .contenedor-soluciones-opcionales h3 {
     font-size: 16px; } }
+
+@media screen and (max-width: 800px) {
+  .flex-contenedor-contactos {
+    flex-direction: column; }
+  .contacto {
+    height: auto; }
+    .contacto h2 {
+      margin-top: 66px; }
+  .tarjeta-contacto {
+    height: auto; }
+  .tarjeta-contacto {
+    margin-bottom: 1rem; }
+  .contenedor-formulario {
+    width: 75%; } }
 
 @media screen and (max-width: 770px) {
   .flex-presentacion-explicacion img {
@@ -139,7 +155,13 @@
   .titulo-icono h4 {
     font-size: 14px; }
   .contenedor-soluciones-opcionales {
-    width: 210px; } }
+    width: 210px; }
+  .grid-formulario {
+    grid-template-columns: repeat(1, 1fr); }
+  .grid-item-nombre {
+    grid-column: span 1; }
+  .grid-item-obs {
+    grid-column: span 1; } }
 
 @media screen and (max-width: 400px) {
   .titulo-icono img {
@@ -359,6 +381,92 @@ header {
 .img-compras {
   grid-column: span 2; }
 
+/*!-----------------CONTACTO---------------------------*/
+.contacto {
+  background-image: url("../img/contactocall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contacto h2 {
+    color: white;
+    font-size: 32px;
+    text-align: center; }
+
+.flex-contenedor-contactos {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.tarjeta-contacto {
+  width: 200px;
+  height: 410px;
+  text-align: center; }
+  .tarjeta-contacto img {
+    width: 140px;
+    height: 140px; }
+  .tarjeta-contacto p {
+    color: white;
+    text-align: center; }
+  .tarjeta-contacto a {
+    background-color: rgba(42, 65, 81, 0.957);
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    color: white; }
+    .tarjeta-contacto a:hover {
+      background-color: #d5b861; }
+
+.seccion-contacto-formulario {
+  display: flex;
+  justify-content: center; }
+  .seccion-contacto-formulario div {
+    background-color: #e8e7e7; }
+    .seccion-contacto-formulario div h2 {
+      text-align: center;
+      padding-top: 66px;
+      color: rgba(42, 65, 81, 0.957); }
+
+.contenedor-formulario {
+  width: 50%; }
+
+.grid-formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 70px; }
+
+.grid-item-form {
+  margin: 5px; }
+  .grid-item-form input {
+    width: 100%; }
+  .grid-item-form textarea {
+    width: 100%; }
+
+.grid-item-nombre {
+  grid-column: span 2; }
+
+.grid-item-obs {
+  grid-column: span 2;
+  grid-row: span 2; }
+
+.grid-item-submit input {
+  width: auto;
+  padding: 5px 10px; }
+  .grid-item-submit input:hover {
+    background-color: #d5b861;
+    color: white; }
+
+.form-etiqueta {
+  display: block; }
+
 /*!---------------------FOOTER-------------------------*/
 footer {
   background-color: #2a4151f4;
@@ -403,7 +511,9 @@ footer {
     width: 400px; }
   .titulo-icono img {
     height: 110px;
-    width: 110px; } }
+    width: 110px; }
+  .contenedor-formulario {
+    width: 70%; } }
 
 @media screen and (max-width: 900px) {
   .grid-galeria {
@@ -437,6 +547,20 @@ footer {
 @media screen and (max-width: 881px) {
   .contenedor-soluciones-opcionales h3 {
     font-size: 16px; } }
+
+@media screen and (max-width: 800px) {
+  .flex-contenedor-contactos {
+    flex-direction: column; }
+  .contacto {
+    height: auto; }
+    .contacto h2 {
+      margin-top: 66px; }
+  .tarjeta-contacto {
+    height: auto; }
+  .tarjeta-contacto {
+    margin-bottom: 1rem; }
+  .contenedor-formulario {
+    width: 75%; } }
 
 @media screen and (max-width: 770px) {
   .flex-presentacion-explicacion img {
@@ -510,7 +634,13 @@ footer {
   .titulo-icono h4 {
     font-size: 14px; }
   .contenedor-soluciones-opcionales {
-    width: 210px; } }
+    width: 210px; }
+  .grid-formulario {
+    grid-template-columns: repeat(1, 1fr); }
+  .grid-item-nombre {
+    grid-column: span 1; }
+  .grid-item-obs {
+    grid-column: span 1; } }
 
 @media screen and (max-width: 400px) {
   .titulo-icono img {

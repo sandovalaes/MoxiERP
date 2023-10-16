@@ -70,6 +70,10 @@
             width: 110px;
         }
     }
+
+    .contenedor-formulario{
+        width: 70%;
+    }
 } 
 
 @media screen and (max-width:900px) {
@@ -139,6 +143,32 @@
         h3{
             font-size: 16px;
         }
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .flex-contenedor-contactos{
+        flex-direction: column;
+    }
+
+    .contacto{
+        height: auto;
+        h2{
+            margin-top: 66px;
+        }
+    }
+
+    .tarjeta-contacto{
+        height: auto;
+    }
+
+    .tarjeta-contacto{
+        margin-bottom: 1rem;
+    }
+
+    .contenedor-formulario{
+        width: 75%;
     }
 }
 
@@ -274,6 +304,18 @@
 
     .contenedor-soluciones-opcionales{
         width: 210px;
+    }
+
+    .grid-formulario{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .grid-item-nombre{
+        grid-column: span 1;
+    }
+    
+    .grid-item-obs{
+        grid-column: span 1;
     }
 }
 
