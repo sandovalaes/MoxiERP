@@ -305,7 +305,6 @@ header{
 
 .contacto h2{
     color: white;
-   /* padding-top: 2rem;*/
     font-size: 32px;
     text-align: center;
 }
@@ -316,7 +315,6 @@ header{
     justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .tarjeta-contacto{
@@ -395,6 +393,34 @@ header{
     grid-column: span 2;
     grid-row: span 2;
 }
+
+/*!-----------------NOSOTROS---------------------------*/
+
+.seccion-sobrenosotros{
+    background-image: url(../img/sobrenosotros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.contenedor-sobrenosotros{
+    width: 60%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.266);
+}
+
+.contenedor-sobrenosotros h2{ 
+    font-size: 50px;
+    color: white;
+}
+
 /*!-----------------FOOTER-----------------------------*/
 footer{
     background-color: #2a4151f4;
@@ -522,6 +548,10 @@ footer div p{
     .grid-contenedor-modulos h2{
         font-size: 22px;
     }
+/*sobre nosotros*/
+    .contenedor-sobrenosotros h2{ 
+        font-size: 45px;
+    }
 } 
 
 @media screen and (max-width:881px) {
@@ -556,6 +586,10 @@ footer div p{
 
     .contenedor-formulario{
         width: 75%;
+    }
+    /*sobre nosotros*/
+    .contenedor-sobrenosotros h2{ 
+        font-size: 40px;
     }
 }
 
@@ -593,6 +627,12 @@ footer div p{
     }
 }
 
+@media screen and (max-width:750px ) {
+    /*sobre nosotros*/
+    .contenedor-sobrenosotros h2{ 
+        font-size: 35px;
+    }
+}
 
 @media screen and (max-width:725px ) {
     .flex-presentacion-explicacion img{
@@ -632,7 +672,6 @@ footer div p{
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     .contactanos{
@@ -647,23 +686,18 @@ footer div p{
     .seguinos h4{
         text-align: center;
     }
+
+    /*sobre nosotros*/
+    .contenedor-sobrenosotros h2{ 
+        font-size: 30px;
+    }
 }  
 
 @media screen and (max-width:650px) {
-
-    /*.contenedor-listas{
-        flex-direction: column;
-        align-items: center;
-    }*/
-
     .contenedor-listas ul{
         padding-top: 10px;
         text-align: center;
     }
-
-    /*.con-borde{
-        border-top: 2px solid white;
-    }*/
 }
 
 @media screen and (max-width:550px){
@@ -674,6 +708,10 @@ footer div p{
     .grid-item{
         grid-column: span 1;
         grid-row: span 1;
+    }
+    /*sobre nosotros*/
+    .contenedor-sobrenosotros h2{ 
+        font-size: 25px;
     }
 }
 

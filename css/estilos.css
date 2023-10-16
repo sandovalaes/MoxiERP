@@ -63,7 +63,9 @@
   .titulo-icono h4 {
     font-size: 18px; }
   .grid-contenedor-modulos h2 {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .contenedor-sobrenosotros h2 {
+    font-size: 45px; } }
 
 @media screen and (max-width: 881px) {
   .contenedor-soluciones-opcionales h3 {
@@ -81,7 +83,9 @@
   .tarjeta-contacto {
     margin-bottom: 1rem; }
   .contenedor-formulario {
-    width: 75%; } }
+    width: 75%; }
+  .contenedor-sobrenosotros h2 {
+    font-size: 40px; } }
 
 @media screen and (max-width: 770px) {
   .flex-presentacion-explicacion img {
@@ -102,6 +106,10 @@
     width: 210px; }
     .flex-contenedor-tarjetas div ul li {
       font-size: 14px; } }
+
+@media screen and (max-width: 750px) {
+  .contenedor-sobrenosotros h2 {
+    font-size: 35px; } }
 
 @media screen and (max-width: 725px) {
   .flex-presentacion-explicacion img {
@@ -124,6 +132,9 @@
     font-size: 12px; }
     .tamanio-fuente li a {
       padding: 4px; }
+  .contenedor-listas ul {
+    padding-top: 10px;
+    text-align: center; }
   footer {
     display: flex;
     flex-direction: column;
@@ -134,19 +145,25 @@
     .contactanos h4 {
       text-align: center; }
   .seguinos h4 {
-    text-align: center; } }
-
-@media screen and (max-width: 650px) {
-  .contenedor-listas ul {
-    padding-top: 10px;
-    text-align: center; } }
+    text-align: center; }
+  .contenedor-sobrenosotros {
+    width: 75%; }
+    .contenedor-sobrenosotros h2 {
+      font-size: 30px; } }
 
 @media screen and (max-width: 550px) {
   .grid-galeria {
     grid-template-columns: 1fr; }
   .grid-item {
     grid-column: span 1;
-    grid-row: span 1; } }
+    grid-row: span 1; }
+  .contenedor-sobrenosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%; }
+    .contenedor-sobrenosotros h2 {
+      font-size: 25px; } }
 
 @media screen and (max-width: 500px) {
   .titulo-icono img {
@@ -397,7 +414,7 @@ header {
   align-items: center; }
   .contacto h2 {
     color: white;
-    font-size: 32px;
+    font-size: 50px;
     text-align: center; }
 
 .flex-contenedor-contactos {
@@ -405,7 +422,9 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.266);
+  padding-top: 1rem; }
 
 .tarjeta-contacto {
   width: 200px;
@@ -429,10 +448,11 @@ header {
   display: flex;
   justify-content: center; }
   .seccion-contacto-formulario div {
-    background-color: #e8e7e7; }
+    background-color: #e8e7e7;
+    border-radius: 15px; }
     .seccion-contacto-formulario div h2 {
       text-align: center;
-      padding-top: 66px;
+      padding-top: 80px;
       color: rgba(42, 65, 81, 0.957); }
 
 .contenedor-formulario {
@@ -459,13 +479,37 @@ header {
 
 .grid-item-submit input {
   width: auto;
-  padding: 5px 10px; }
+  padding: 5px 10px;
+  background-color: rgba(42, 65, 81, 0.957);
+  color: white; }
   .grid-item-submit input:hover {
-    background-color: #d5b861;
-    color: white; }
+    background-color: #d5b861; }
 
 .form-etiqueta {
-  display: block; }
+  display: block;
+  /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+  color: rgba(42, 65, 81, 0.957); }
+
+/*!-----------------NOSOTROS---------------------------*/
+.seccion-sobrenosotros {
+  background-image: url(../img/sobrenosotros.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.contenedor-sobrenosotros {
+  width: 60%;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.266); }
+  .contenedor-sobrenosotros h2 {
+    font-size: 50px;
+    color: white; }
 
 /*!---------------------FOOTER-------------------------*/
 footer {
@@ -542,7 +586,9 @@ footer {
   .titulo-icono h4 {
     font-size: 18px; }
   .grid-contenedor-modulos h2 {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .contenedor-sobrenosotros h2 {
+    font-size: 45px; } }
 
 @media screen and (max-width: 881px) {
   .contenedor-soluciones-opcionales h3 {
@@ -560,7 +606,9 @@ footer {
   .tarjeta-contacto {
     margin-bottom: 1rem; }
   .contenedor-formulario {
-    width: 75%; } }
+    width: 75%; }
+  .contenedor-sobrenosotros h2 {
+    font-size: 40px; } }
 
 @media screen and (max-width: 770px) {
   .flex-presentacion-explicacion img {
@@ -581,6 +629,10 @@ footer {
     width: 210px; }
     .flex-contenedor-tarjetas div ul li {
       font-size: 14px; } }
+
+@media screen and (max-width: 750px) {
+  .contenedor-sobrenosotros h2 {
+    font-size: 35px; } }
 
 @media screen and (max-width: 725px) {
   .flex-presentacion-explicacion img {
@@ -603,6 +655,9 @@ footer {
     font-size: 12px; }
     .tamanio-fuente li a {
       padding: 4px; }
+  .contenedor-listas ul {
+    padding-top: 10px;
+    text-align: center; }
   footer {
     display: flex;
     flex-direction: column;
@@ -613,19 +668,25 @@ footer {
     .contactanos h4 {
       text-align: center; }
   .seguinos h4 {
-    text-align: center; } }
-
-@media screen and (max-width: 650px) {
-  .contenedor-listas ul {
-    padding-top: 10px;
-    text-align: center; } }
+    text-align: center; }
+  .contenedor-sobrenosotros {
+    width: 75%; }
+    .contenedor-sobrenosotros h2 {
+      font-size: 30px; } }
 
 @media screen and (max-width: 550px) {
   .grid-galeria {
     grid-template-columns: 1fr; }
   .grid-item {
     grid-column: span 1;
-    grid-row: span 1; } }
+    grid-row: span 1; }
+  .contenedor-sobrenosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%; }
+    .contenedor-sobrenosotros h2 {
+      font-size: 25px; } }
 
 @media screen and (max-width: 500px) {
   .titulo-icono img {
