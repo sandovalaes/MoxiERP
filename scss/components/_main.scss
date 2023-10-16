@@ -76,6 +76,7 @@
             padding:5px 20px 5px 20px;
             text-decoration: none;
             color: white;
+            border-radius: 10px;
             &:hover{
                 background-color: rgb(213, 184, 97);
             }
@@ -93,14 +94,14 @@
     align-items: center;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    background-image: url('../img/soluciones.jpg');
+    /*background-image: url('../img/soluciones.jpg');
     background-size:cover;
-    background-position: center;
+    background-position: center;*/
 }
 
 .encabezado-soluciones{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.31);
+    background-color: rgba(64, 64, 63, 0.899);
     
     h2{
         color: white;
@@ -121,7 +122,7 @@
     div{
         height: 270px;
         width: 220px;
-        background-color: #ffffff;
+        background-color: rgb(232, 231, 231);
         border: 1px solid #2a4151f4;
         border-radius: 10px;
         margin-bottom: 20px;
@@ -146,6 +147,7 @@
         padding:5px 40px 5px 40px;
         text-decoration: none;
         color: white;
+        border-radius: 10px;
         &:hover{
             background-color: rgb(213, 184, 97);
         }
@@ -196,7 +198,6 @@
         }
     }
 }
-
 
 /*!----------------MODULOS DEL ERP--------------*/
 
@@ -271,12 +272,13 @@
 .contacto{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     h2{
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
+        margin-bottom: 3rem;
     }
 }
 
@@ -286,8 +288,8 @@
     justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgba(0, 0, 0, 0.266);
-    padding-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.326);
+    /*padding-top: 1rem;*/
 }
 
 .tarjeta-contacto{
@@ -307,6 +309,7 @@
         text-decoration: none;
         padding: 5px 10px 5px 10px;
         color: white;
+        border-radius: 10px;
         &:hover{
             background-color: rgb(213, 184, 97); 
         }
@@ -314,6 +317,7 @@
 }
 
 .seccion-contacto-formulario{
+    height: 100vh;
     display: flex;
     justify-content: center;
     div{
@@ -321,7 +325,7 @@
         border-radius:15px;
         h2{
             text-align: center;
-            padding-top: 80px;
+            padding-top: 1rem;
             color: rgba(42, 65, 81, 0.957);
         }
     }
@@ -329,6 +333,8 @@
 
 .contenedor-formulario{
     width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .grid-formulario{
@@ -361,6 +367,7 @@
     padding: 5px 10px;
     background-color: rgba(42, 65, 81, 0.957);
     color: white;
+    border-radius: 10px;
     &:hover{
         background-color: rgb(213, 184, 97);
     }
@@ -397,3 +404,73 @@
         color: white;
     }
 }
+
+/*!----------------------CLIENTES---------------------------*/
+
+.seccion-intro-clientes{
+    height: 100vh;
+    background-color: white;
+    background-image: url("../img/gente.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    div{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(102, 101, 101, 0.434);
+        h2{
+            font-size: 60px;  
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+        }
+        a{
+            color:white;  
+            background-color: rgba(42, 65, 81, 0.957) ;
+            text-decoration: none;
+            padding: 5px 15px;
+            border-radius: 10px;
+            &:hover{
+                background-color: rgb(213, 184, 97);
+            }
+        }
+    }
+}
+
+.flex-contenedor-tarjetas-clientes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    div{
+        text-align: center;
+        height: 350px;
+        width: 350px;
+        background-color: #e5e6e84f;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        &:hover{
+            box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);-webkit-box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);
+        }
+        img{
+            padding: 5px;
+            height: 90px;
+        }
+        p{
+            padding: 5px 20px 5px 20px;
+        } 
+    }
+}
+.tarjeta-cliente{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+

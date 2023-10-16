@@ -420,8 +420,57 @@ header{
     font-size: 50px;
     color: white;
 }
+/*!---------------------CLIENTES-------------------------*/
+/*
+.relleno div{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+*/
+.seccion-intro-clientes{
+    height: 100vh;
+    background-color: white;
+    background-image: url("../img/clientes4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 
-/*!-----------------FOOTER-----------------------------*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-intro-clientes h2{  
+    font-size: 60px;  
+    margin-bottom: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white
+}
+
+.seccion-intro-clientes a{
+    color:white;  
+    background-color: rgba(42, 65, 81, 0.957) ;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.seccion-intro-clientes a:hover{
+    background-color: rgb(213, 184, 97);
+}
+
+.seccion-clientes{
+    height: 100vh;
+}
+
+.seccion-clientes h2{
+    border-bottom: 30px solid black;
+}
+
+
+/*!----------------------FOOTER--------------------------*/
 footer{
     background-color: #2a4151f4;
     display: flex;
@@ -744,7 +793,6 @@ footer div p{
 
     }
 }
-
 
 @media screen and (max-width:400px) {
 

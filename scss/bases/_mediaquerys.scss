@@ -255,6 +255,20 @@
             margin-top: 5px;
         }
     }
+
+    .flex-contenedor-tarjetas-clientes{
+        div{
+            width: 300px;
+        }
+    }
+
+    .seccion-intro-clientes{
+        div{
+            h2{
+                font-size: 50px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:650px) {
@@ -302,6 +316,12 @@
             font-size: 30px;
         } 
     }
+
+    .contacto{
+        h2{
+            font-size: 30px;
+        }
+    }
 }  
 
 @media screen and (max-width:550px){
@@ -312,6 +332,12 @@
     .grid-item{
         grid-column: span 1;
         grid-row: span 1;
+    }
+
+    .contacto{
+        h2{
+            font-size: 25px;
+        }
     }
 
     .contenedor-sobrenosotros{
@@ -352,6 +378,14 @@
     .grid-item-obs{
         grid-column: span 1;
     }
+
+    .seccion-intro-clientes{
+        div{
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -363,6 +397,14 @@
         }
         h4{
             font-size: 11px;
+        }
+    }
+
+    .seccion-intro-clientes{
+        div{
+            h2{
+                font-size: 30px;
+            }
         }
     }
 }

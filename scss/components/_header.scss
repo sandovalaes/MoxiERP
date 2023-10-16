@@ -5,6 +5,7 @@ header{
     position:fixed;
     z-index: 5;
     border-bottom: 2px solid gold;
+    box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);-webkit-box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 39px -14px rgba(0,0,0,0.75);
 }
 
 .color-fondo{
@@ -13,4 +14,8 @@ header{
 
 .logo{
     padding-right: 3px;
+}
+
+.relleno{
+    height: 64px;
 }
