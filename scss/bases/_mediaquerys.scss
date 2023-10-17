@@ -327,12 +327,22 @@
         grid-auto-rows: 300px;
     }
 
+    .mostrar-titulo{
+        display: block;
+    }
+
     .grid-item-soluciones{
         flex-direction: column;
         div{
             img{
                 height: 150px;
                 width: 100%;
+            }
+        }
+
+        div{
+            h3{
+                display: none;
             }
         }
     }
