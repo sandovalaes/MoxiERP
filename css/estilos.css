@@ -8,7 +8,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 5;
-  border-bottom: 2px solid gold;
+  border-bottom: 2px solid #e0b358;
   box-shadow: 10px 10px 39px -14px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 39px -14px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 39px -14px rgba(0, 0, 0, 0.75); }
@@ -118,8 +118,7 @@ header {
   .flex-contenedor-tarjetas div {
     height: 270px;
     width: 220px;
-    background-color: #e8e7e7;
-    border: 1px solid #2a4151f4;
+    background-color: #e8eafd;
     border-radius: 10px;
     margin-bottom: 20px; }
     .flex-contenedor-tarjetas div:hover {
@@ -400,6 +399,32 @@ header {
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
+/*!----------------------SOLUCIONES---------------------------*/
+.seccion-page-soluciones {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.grid-contenedor-soluciones {
+  width: 75%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: 250px;
+  gap: 1rem; }
+
+.grid-item-soluciones {
+  display: flex; }
+  .grid-item-soluciones div img {
+    height: 250px;
+    width: 400px; }
+
+.solucion-explicacion {
+  padding: 10px; }
+  .solucion-explicacion p {
+    text-align: justify; }
+
 /*!---------------------FOOTER-------------------------*/
 footer {
   background-color: #3e3b35f4;
@@ -431,6 +456,10 @@ footer {
     height: 140px;
     width: 140px; } }
 
+@media screen and (max-width: 1050px) {
+  .grid-item-soluciones div img {
+    width: 375px; } }
+
 @media screen and (max-width: 1000px) {
   .flex-contenedor-soluciones h2 {
     font-size: 22px; }
@@ -446,7 +475,9 @@ footer {
     height: 110px;
     width: 110px; }
   .contenedor-formulario {
-    width: 70%; } }
+    width: 70%; }
+  .grid-item-soluciones div img {
+    width: 350px; } }
 
 @media screen and (max-width: 900px) {
   .grid-galeria {
@@ -477,11 +508,17 @@ footer {
   .grid-contenedor-modulos h2 {
     font-size: 22px; }
   .contenedor-sobrenosotros h2 {
-    font-size: 45px; } }
+    font-size: 45px; }
+  .grid-item-soluciones div img {
+    width: 325px; } }
 
 @media screen and (max-width: 881px) {
   .contenedor-soluciones-opcionales h3 {
     font-size: 16px; } }
+
+@media screen and (max-width: 850px) {
+  .grid-item-soluciones div img {
+    width: 300px; } }
 
 @media screen and (max-width: 800px) {
   .flex-contenedor-contactos {
@@ -497,7 +534,9 @@ footer {
   .contenedor-formulario {
     width: 75%; }
   .contenedor-sobrenosotros h2 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .grid-item-soluciones div img {
+    width: 275px; } }
 
 @media screen and (max-width: 770px) {
   .flex-presentacion-explicacion img {
@@ -521,7 +560,9 @@ footer {
 
 @media screen and (max-width: 750px) {
   .contenedor-sobrenosotros h2 {
-    font-size: 35px; } }
+    font-size: 35px; }
+  .grid-item-soluciones div img {
+    width: 250px; } }
 
 @media screen and (max-width: 725px) {
   .flex-presentacion-explicacion img {
@@ -541,7 +582,15 @@ footer {
   .flex-contenedor-tarjetas-clientes div {
     width: 300px; }
   .seccion-intro-clientes div h2 {
-    font-size: 50px; } }
+    font-size: 50px; }
+  .grid-contenedor-soluciones {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 300px; }
+  .grid-item-soluciones {
+    flex-direction: column; }
+    .grid-item-soluciones div img {
+      height: 150px;
+      width: 100%; } }
 
 @media screen and (max-width: 650px) {
   .tamanio-fuente {
@@ -567,7 +616,15 @@ footer {
     .contenedor-sobrenosotros h2 {
       font-size: 30px; }
   .contacto h2 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .grid-contenedor-soluciones {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 400px; }
+  .grid-item-soluciones {
+    flex-direction: column; }
+    .grid-item-soluciones div img {
+      height: 200px;
+      width: 100%; } }
 
 @media screen and (max-width: 550px) {
   .grid-galeria {
@@ -600,7 +657,10 @@ footer {
   .grid-item-obs {
     grid-column: span 1; }
   .seccion-intro-clientes div h2 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .grid-contenedor-soluciones {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto; } }
 
 @media screen and (max-width: 400px) {
   .titulo-icono img {
