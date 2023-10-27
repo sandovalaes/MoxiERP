@@ -1,0 +1,17 @@
+/*!------------------COLORES DEL SITIO-------------------------*/
+
+$color-principal: rgba(229, 230, 232, 0.31);
+$color-secundario: rgba(42, 65, 81, 0.957);
+$color-hover-botones: rgb(213, 184, 97);
+$color-border-header: gold;
+$color-contenedores-secundarios:rgb(212, 148, 53);
+$color-background-presentacion: rgba(102, 101, 101, 0.434);
+
+/*!---------------------USO DE MIXIN-------------------------*/
+@mixin flex($flex, $direction, $justify, $aling)
+{
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+}
